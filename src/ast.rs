@@ -1856,7 +1856,7 @@ impl<'a> CspGuard<'a> {
                 ComparisonOperator::LessEqual
             }
             clingo_ast_comparison_operator_clingo_ast_comparison_operator_greater_equal => {
-                ComparisonOperator::GreaterThan
+                ComparisonOperator::GreaterEqual
             }
             clingo_ast_comparison_operator_clingo_ast_comparison_operator_not_equal => {
                 ComparisonOperator::NotEqual
@@ -2012,7 +2012,7 @@ impl<'a> Comparison<'a> {
                 ComparisonOperator::LessEqual
             }
             clingo_ast_comparison_operator_clingo_ast_comparison_operator_greater_equal => {
-                ComparisonOperator::GreaterThan
+                ComparisonOperator::GreaterEqual
             }
             clingo_ast_comparison_operator_clingo_ast_comparison_operator_not_equal => {
                 ComparisonOperator::NotEqual
@@ -2120,7 +2120,7 @@ impl<'a> AggregateGuard<'a> {
                 ComparisonOperator::LessEqual
             }
             clingo_ast_comparison_operator_clingo_ast_comparison_operator_greater_equal => {
-                ComparisonOperator::GreaterThan
+                ComparisonOperator::GreaterEqual
             }
             clingo_ast_comparison_operator_clingo_ast_comparison_operator_not_equal => {
                 ComparisonOperator::NotEqual
